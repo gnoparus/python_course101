@@ -3,10 +3,11 @@ print(6 * 3)
 print(type(6))
 
 # float
-print(2.5 * 3)
-print(type(2.5))
+print(2.5e3)
+print(type(2.5e3))
 
 # parentheses
+print(0.5 + 9.5 / 3)
 print((0.5 + 9.5) / 3)
 
 # mod
