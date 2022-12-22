@@ -1,12 +1,16 @@
-text = "Som tam is a spicy salad made from shredded unripe papaya."
+text = """
+Papaya and chili peppers were introduced to Southeast Asia by the Spanish and 
+Portuguese explorers in the 17th century from the Americas. Although it is 
+unknown when papayas entered Laos specifically, they had already been integrated 
+into Lao culture by the time of Jean-Baptiste Pallegoix's visit in 1836.
+"""
 
-print(text)
-print(text.upper())
-print(text.lower())
-print(text.title())
-print(text.center(80))
-print(text.isupper())
-print(text)
+print(len(text))
+print(text[1])
+print(text[4:7])
+print(text.index("chili"))
+print(text.replace("Papaya", "Banana"))
+
 
 
 # Method	Description
