@@ -8,6 +8,18 @@ print(text.center(80))
 print(text.isupper())
 print(text)
 
+print(text[0])
+print(text[1])
+print(text[4:7])
+
+text = """
+Papaya and chili peppers were introduced to Southeast Asia by the Spanish and 
+Portuguese explorers in the 17th century from the Americas. Although it is 
+unknown when papayas entered Laos specifically, they had already been integrated 
+into Lao culture by the time of Jean-Baptiste Pallegoix's visit in 1836.
+"""
+
+print(len(text))
 
 # Method	Description
 # capitalize()	Converts the first character to upper case
