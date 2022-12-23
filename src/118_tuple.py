@@ -4,6 +4,7 @@ tuple3 = (True, False, False)
 tuple4 = (2, "Banana", False, 4.5, -23, "Durian")
 tuple5 = (tuple1, tuple2, "Tuple of Tuple", (tuple3, tuple4))
 
+# Coordinates of Thai department stores
 iconsiam_coordinate = (13.726294415060304, 100.51036937945553)
 siamparagon_coordinate = (13.746233828725202, 100.53476597754464)
 centralworld_coordinate = (13.745988627621033, 100.53998544365108)
