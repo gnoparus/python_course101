@@ -19,6 +19,9 @@ def tell_story(name, year, month, day):
     print(
         f'{name}\'s favourite quote is "Imagination is more important than knowledge" '
     )
+    print("-" * 40)
 
 
 tell_story("Frank", 2000, 2, 28)
+tell_story("George", 1995, 8, 19)
+tell_story("Henry", 2005, 9, 2)
