@@ -43,15 +43,17 @@ def calculate_noodle_price(meat, noodle, is_extra, is_take_home):
     return price
 
 
+is_extra0 = True
+check_extra(is_extra0)
+
+
 meat1 = "Beef"
 noodle1 = "Egg Noodle"
-is_extra1 = False
+is_extra1 = True
 is_take_home1 = False
-
-check_extra(is_extra1)
-
 price1 = calculate_noodle_price(meat1, noodle1, is_extra1, is_take_home1)
 print(f"price1 = {price1}")
+
 
 meat2 = "Beef"
 noodle2 = "Egg Noodle"
