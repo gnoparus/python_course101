@@ -15,10 +15,7 @@ def check_extra(is_extra):
         print("You ordered normal")
 
 
-def calculate_noodle_price(meat, noodle, is_extra, is_take_home, quantity):
-
-    if (quantity > 8 and meat == "Beef") or (quantity > 10 and meat == "Chicken"):
-        return -1
+def calculate_noodle_price(meat, noodle, is_extra, is_take_home):
 
     if meat == "Beef":
         if noodle == "Big" or noodle == "Small" or noodle == "Vermicelli":
@@ -45,7 +42,7 @@ def calculate_noodle_price(meat, noodle, is_extra, is_take_home, quantity):
     elif is_take_home:
         price += 10
 
-    return price * quantity
+    return price
 
 
 is_extra0 = True
@@ -56,8 +53,7 @@ meat1 = "Beef"
 noodle1 = "Egg Noodle"
 is_extra1 = True
 is_take_home1 = False
-quantity1 = 4
-price1 = calculate_noodle_price(meat1, noodle1, is_extra1, is_take_home1, quantity1)
+price1 = calculate_noodle_price(meat1, noodle1, is_extra1, is_take_home1)
 print(f"price1 = {price1}")
 
 
@@ -65,6 +61,5 @@ meat2 = "Beef"
 noodle2 = "Egg Noodle"
 is_extra2 = True
 is_take_home2 = True
-quantity2 = 20
-price2 = calculate_noodle_price(meat2, noodle2, is_extra2, is_take_home2, quantity2)
+price2 = calculate_noodle_price(meat2, noodle2, is_extra2, is_take_home2)
 print(f"price1 = {price2}")
