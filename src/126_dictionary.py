@@ -1,5 +1,7 @@
 noodle_order_list = [100, "Beef", "Big", True, False, 1]
 
+tickers = {"APPL": "Apple", "GOOG": "Google", "MSFT": "Microsoft", "NFLX": "Netflix"}
+
 noodle_order_dict = {
     "order_id": 1,
     "meat": "Beef",
@@ -47,6 +49,10 @@ def print_noodle_order(order):
     print(order["quantity"])
     print("-" * 40)
 
+
+print(tickers["APPL"])
+print(tickers["GOOG"])
+print(tickers["NFLX"])
 
 print(noodle_order_list)
 
