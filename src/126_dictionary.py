@@ -1,4 +1,6 @@
-noodle_order1 = {
+noodle_order_list = [100, "Beef", "Big", True, False, 1]
+
+noodle_order_dict = {
     "order_id": 1,
     "meat": "Beef",
     "noodle": "Big",
@@ -7,7 +9,7 @@ noodle_order1 = {
     "quantity": 2,
 }
 
-noodle_orders = [
+noodle_orders_list_of_dict = [
     {
         "order_id": 2,
         "meat": "Chicken",
@@ -46,8 +48,10 @@ def print_noodle_order(order):
     print("-" * 40)
 
 
-print_noodle_order(noodle_order1)
+print(noodle_order_list)
 
-print_noodle_order(noodle_orders[0])
-print_noodle_order(noodle_orders[1])
-print_noodle_order(noodle_orders[2])
+print_noodle_order(noodle_order_dict)
+
+print_noodle_order(noodle_orders_list_of_dict[0])
+print_noodle_order(noodle_orders_list_of_dict[1])
+print_noodle_order(noodle_orders_list_of_dict[2])
