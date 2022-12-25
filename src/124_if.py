@@ -6,6 +6,13 @@
 # Take Home and Extra + 15THB
 
 
+def check_extra(is_extra):
+    if is_extra:
+        print("You ordered extra")
+    else:
+        print("You ordered normal")
+
+
 def calculate_noodle_price(meat, noodle, is_extra, is_take_home):
 
     if meat == "Beef":
@@ -40,6 +47,9 @@ meat1 = "Beef"
 noodle1 = "Egg Noodle"
 is_extra1 = False
 is_take_home1 = False
+
+check_extra(is_extra1)
+
 price1 = calculate_noodle_price(meat1, noodle1, is_extra1, is_take_home1)
 print(f"price1 = {price1}")
 
