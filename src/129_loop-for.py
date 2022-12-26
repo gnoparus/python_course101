@@ -1,3 +1,7 @@
+for i in range(100):
+    print("I love you")
+
+
 text1 = "Last Christmas I gave you my heart"
 
 for char in text1:
