@@ -53,6 +53,7 @@ def print_noodle_order(order):
 print(tickers["APPL"])
 print(tickers["GOOG"])
 print(tickers["NFLX"])
+print(tickers.get("PTT", "Not Found! Please double check"))
 
 print(noodle_order_list)
 
