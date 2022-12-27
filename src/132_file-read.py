@@ -9,8 +9,8 @@ txt_file = open("sample.txt", "r")
 
 
 for txt_line in txt_file.readlines():
-    print(txt_line)
-    # print(txt_line, end="")
+    # print(txt_line)
+    print(txt_line, end="")
 
 
 txt_file.close()
