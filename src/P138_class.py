@@ -1,12 +1,12 @@
 class Counter:
     def __init__(self) -> None:
-        self.__count = 0
+        self._count = 0
 
     def increment(self):
-        self.__count += 1
+        self._count += 1
 
     def get_count(self):
-        return self.__count
+        return self._count
 
 
 if __name__ == "__main__":
@@ -40,5 +40,5 @@ if __name__ == "__main__":
     print(counter2.get_count())
 
     counter2.increment()
-    # print(counter2.__count)
+    # print(counter2._count)
     print(counter2.get_count())
