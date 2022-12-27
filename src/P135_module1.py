@@ -23,3 +23,10 @@ df2 = pd.read_csv(
 print(df2.info())
 # print(df2.head())
 # print(df2.to_string())
+
+
+# Python Module Index
+# https://docs.python.org/3/py-modindex.html
+
+# Python Package Index
+# https://pypi.org/
