@@ -10,7 +10,7 @@ pd.set_option("display.width", 1000)
 
 ### The longest river in the world ###
 df = pd.read_html("https://en.wikipedia.org/wiki/List_of_river_systems_by_length")
-
+print(df[5].info())
 # print(df[5].to_string())
 
 
@@ -20,5 +20,6 @@ df2 = pd.read_csv(
     "https://raw.githubusercontent.com/paiv/fci-breeds/main/fci-breeds.csv"
 )
 
-print(df2.head())
+print(df2.info())
+# print(df2.head())
 # print(df2.to_string())
